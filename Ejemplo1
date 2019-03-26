@@ -23,6 +23,8 @@ public class Ejemplo1 {
         
         System.out.println("Valor da suma: " + suma);
         System.out.println("Valor da media: " + media);
+        
+        System.out.println("O meu nome é Daniel Villasenín");
 
     }
 
