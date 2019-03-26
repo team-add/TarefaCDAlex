@@ -1,0 +1,29 @@
+package javadepurandoexercicio1;
+
+import java.util.Scanner;
+
+
+public class Ejemplo1 {
+
+    
+    public static void main(String[] args) {
+        double a, b, suma;
+        double media;
+
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Introduce un nº enteiro: ");
+        a = sc.nextInt();
+        System.out.println("Introduce un nº enteiro: ");
+        b = sc.nextInt();
+        
+        
+        suma = a + b;
+        media = (a+b)/2;
+        
+        System.out.println("Valor da suma: " + suma);
+        System.out.println("Valor da media: " + media);
+
+    }
+
+}
